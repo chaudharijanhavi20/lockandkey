@@ -39,7 +39,7 @@ margin: auto;
     padding: 1rem;
     background-color:white;
     border-radius: 52px;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(13, 13, 13);
     Width:69px;
 Height:54px;
@@ -163,4 +163,71 @@ border-radius: 15px;
 button:hover{
     transform: scale(1.1);
 }
+@media only screen and (max-width: 480px) {
+    html{
+        font-size: 8px;
+        background:url("login.png") no-repeat center center fixed;
+    background-size: cover;
+    }
+    .container{
+        position: absolute;
+        width: 38rem !important;
+        height: 1000px;
+        top: 30px;
+        left: 3rem;
+        right: 0px;
+        margin: auto;
+        border-radius: 15px;
+        background: url('stage\ \(2\).png');
+        padding: 2rem;
+    }
+    .inputans{
+        position: absolute;
+    left: 0px;
+    top: 790px;
+    width: 300px;
+height: 80px;
+    
+    }
+    .submit{
+        position: absolute;
+        top: 90%;
+        right: 50px;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        font-size: 2rem;
+    }
+    .col-6{
+        width: 100% !important;
+    }
+    .coloritems{
+        position: absolute;
+        width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 150px;
+    background: rgb(255,255,255,0.6);
+    border-radius: 25px;
+    
+    }
+    .colorname{
+        left: 100px;
+    }
+    .colorlet{
+        left: 200px;
+    }
+    .color>div{
+        width: 280rem !important;
+        height: 50px;
+        }
+        .coloritems{
+        height: 500px;
+        left: 0px;
+        top: 280px;
+        background: rgb(255,255,255,0.6);
+        border-radius: 25px;
+        
+        }
 
+}
