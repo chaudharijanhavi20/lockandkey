@@ -1,0 +1,118 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url('login.png')  center center no-repeat ;
+  background-size: cover;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat;*/
+}
+
+.itemset{
+    display: flex;
+    flex-direction: row;
+    right: 22px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+margin: auto;
+}
+.container{
+    position: absolute;
+    height: 88%;
+    width: 1400px;
+    left: 180px;
+    top: 67px;
+    border-radius: 15px;
+    background: url('stage\ \(2\).png');
+    padding: 2rem;
+}
+.itemset div{
+    padding: 1rem;
+    background-color:white;
+    border-radius: 52px;
+    font-weight: bold;
+    color: rgb(13, 13, 13);
+    Width:69px;
+Height:54px;
+border: solid 0.2rem white;
+}
+.pseudoimage{
+    margin: 50px;
+width: 800px;
+height: 455px;
+display: flex ;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+
+}
+.inner{
+    display:  flex;
+  right: 200px;
+   width: 750px;
+height: 500px;
+}
+.inputans{
+    position: absolute;
+width: 300px;
+height: 180px;
+left: 850px;
+top: 160px;
+
+
+}
+.inputans input{
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 15px;
+    background-color:#f4f2ec;
+    
+}
+.pseudoimage img{
+    display: none;
+}
+#itemimg1{
+    display: block;
+}
+.pseudoimage img{
+    width: 95%;
+    height: 100%;
+    
+}
+.submit{
+    position: absolute;
+    top: 53%;
+    right: 170px;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #086a1d;
+    color: aliceblue;
+    font-weight: bold;
+   
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+    outline: none;
+    
+}
+button:hover{
+    transform: scale(1.1);
+}
+.textarea {
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
