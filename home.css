@@ -58,7 +58,23 @@ button {
     border-image-source: linear-gradient(to left, #19D619, transparent); 
 }
 
-
+@media (max-width:490px) {
+    button {
+        width: 50%;
+    }
+    h1{
+        text-align: center;
+    }
+    .container {
+        background-color: black;
+        background-image: url(background23.png ) center center cover;
+        min-height: 100vh;
+        background-position: center;
+        justify-content: center;
+        background-repeat: none;
+    }
+    
+}
 button:hover {
     transform: scale(1.1);
 }
